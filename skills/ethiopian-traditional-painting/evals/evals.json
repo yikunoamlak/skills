@@ -1,0 +1,53 @@
+{
+  "skill_name": "ethiopian-traditional-painting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate an image of an Ethiopian woman selling injera at a market, in traditional Ethiopian painting style",
+      "expected_output": "A flat 2D illustration with bold black outlines, warm earth tones, large almond-shaped eyes, the woman in white habesha kemis with colorful border, injera on a mesob basket, warm ivory background, geometric terracotta border, Ge'ez text decorative element",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a portrait of an Ethiopian priest holding an Ethiopian cross, manuscript style",
+      "expected_output": "A flat 2D portrait with bold outlines, the priest in white robes with embroidered cross patterns, large expressive almond eyes, warm brown skin, golden halo, Ethiopian cross in hand, warm ivory background, geometric border, Etsubdink Legesse style",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need an illustration of a modern Ethiopian tech worker coding on a laptop, but make it look like an ancient Ethiopian painting",
+      "expected_output": "A flat 2D composition with bold outlines, figure in modern clothing with traditional Ethiopian patterned accents, laptop rendered as simplified flat form, large almond-shaped eyes, warm brown skin, warm ivory background, geometric border, modern subject in timeless Ethiopian visual language",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Draw me a scene of the Ethiopian coffee ceremony with three generations of a family",
+      "expected_output": "A flat 2D narrative composition with bold outlines, three generations of figures in traditional garments, jebena coffee pot, cups, steam rising symbolically, large almond-shaped eyes, warm brown skin, warm ivory background, geometric terracotta border, communal atmosphere, Etsubdink Legesse style",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Generate an Ethiopian landscape with tukul huts and terraced hillsides in the manuscript painting style",
+      "expected_output": "A flat 2D landscape with bold outlines, round tukul huts with conical roofs, terraced fields in green and gold, stylized trees, warm ivory sky, warm brown earth, geometric border, pastoral narrative composition, simplified symbolic forms",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I want a Timkat festival procession scene painted in the style of Ethiopian Orthodox church art",
+      "expected_output": "A flat 2D processional composition with bold outlines, priests carrying tabot under ceremonial umbrella, figures in white shammas with colorful borders, Ethiopian crosses, Ge'ez inscriptions, warm ivory background, geometric ornamental border, joyful narrative, Etsubdink Legesse manuscript style",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Create an illustration of an Ethiopian mother and child in the traditional painting style, like the manuscript illuminations",
+      "expected_output": "A flat 2D portrait composition with bold outlines, mother in white habesha kemis with colorful border, child held in arms, both with large almond-shaped eyes, warm brown skin, simple symbolic background, geometric terracotta border, tender narrative, handcrafted Ethiopian painting aesthetic",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Generate a multi-panel illustration showing the story of Rastafari — from Haile Selassie's coronation to modern celebrations, in Ethiopian painting style",
+      "expected_output": "Multiple panels in grid layout with red borders, each panel telling one part of the narrative, flat 2D compositions with bold outlines, figures in ceremonial and modern dress, Ethiopian crosses, Ge'ez text titles, warm ivory backgrounds, processions and celebrations, Etsubdink Legesse manuscript style",
+      "files": []
+    }
+  ]
+}

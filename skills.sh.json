@@ -4,8 +4,9 @@
   "groupings": [
     {
       "title": "Visual Generation",
-      "description": "Generate vectors, masks, icons, and thumbnails from images and text.",
+      "description": "Generate vectors, masks, icons, thumbnails, and cultural illustrations from images and text.",
       "skills": [
+        "ethiopian-traditional-painting",
         "vector-tribal-mask-generator",
         "youtube-thumbnail-generator"
       ]
