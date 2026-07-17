@@ -1,0 +1,21 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Visual Generation",
+      "description": "Generate vectors, masks, icons, and thumbnails from images and text.",
+      "skills": [
+        "vector-tribal-mask-generator",
+        "youtube-thumbnail-generator"
+      ]
+    },
+    {
+      "title": "Persona & Psychology",
+      "description": "Explore identity, archetypes, and performance psychology.",
+      "skills": [
+        "alter-ego-analyst"
+      ]
+    }
+  ]
+}
