@@ -1,25 +1,40 @@
 ---
 name: ethiopian-traditional-painting
 description: >
-  Generate illustrations in traditional Ethiopian painting style — inspired by
-  Ethiopian Orthodox manuscript art, church murals, and the contemporary visual
-  language of artists like Etsubdink Legesse. Also use when the user mentions
-  'Ethiopian painting', 'Ethiopian art', 'Ethiopian manuscript style',
-  'habesha art', 'Ethiopian illustration', 'Ethiopian icon', 'Ethiopian mural',
-  'Ge'ez art', 'Ethiopian Orthodox art', 'Addis Ababa art', 'Ethiopian
-  portrait', 'Ethiopian scene', 'African manuscript', 'Ethiopian narrative art',
-  'flat Ethiopian style', 'Ethiopian folk art', 'Ethiopian decorative art',
-  'traditional African painting', 'Ethiopian cultural illustration', or any
-  request to create art that looks like it was painted by an Ethiopian
-  manuscript artist. Use this whenever the user wants any image — portrait,
-  landscape, narrative scene, modern subject, religious or secular — rendered in
-  this distinctive handcrafted flat 2D style with bold outlines, warm earthy
-  colors, and large expressive eyes.
+  Generate illustrations in the specific style of Etsubdink Legesse —
+  Ethiopia's master of traditional flat painting. His distinctive visual
+  language features narrative panel compositions with red/terracotta geometric
+  borders, Ge'ez manuscript text, bold black outlines, flat unshaded earth-tone
+  colors, large almond-shaped eyes, and simplified rounded figures in
+  traditional Ethiopian garments. Also use when the user mentions 'Etsubdink
+  Legesse', 'Etsubdink style', 'Ethiopian manuscript painting', 'Ethiopian
+  panel art', 'Ethiopian narrative painting', 'habesha art', 'Ethiopian
+  illustration', 'Ethiopian icon', 'Ethiopian mural', 'Ge'ez art',
+  'Ethiopian Orthodox art', 'Ethiopian folk art', 'flat Ethiopian style',
+  'Ethiopian decorative art', 'traditional African painting', or any request
+  to create art that looks like an Etsubdink Legesse painting — flat 2D, bold
+  outlines, warm earthy colors, large expressive eyes, and handcrafted
+  manuscript aesthetic. This is specifically the Etsubdink Legesse style, NOT
+  the volumetric oil painting style of Afewerk Tekle.
 ---
 
-# Ethiopian Traditional Painting
+# Etsubdink Legesse — Ethiopian Traditional Painting
 
-Generate illustrations that faithfully capture the visual language of traditional Ethiopian painting — the style found in Ethiopian Orthodox church murals, illuminated Ge'ez manuscripts, and the contemporary work of artists like Etsubdink Legesse. The output should feel handcrafted, symbolic, narrative, and timeless rather than realistic.
+Generate illustrations that faithfully capture the specific visual language of **Etsubdink Legesse**, Ethiopia's master of traditional flat narrative painting. His work continues the tradition of Ethiopian Orthodox church murals and illuminated Ge'ez manuscripts, rendered with a contemporary sensibility. The output should feel handcrafted, symbolic, narrative, and timeless — flat 2D, bold outlines, warm earth tones, and large expressive eyes.
+
+## About Etsubdink Legesse
+
+Etsubdink Legesse is a contemporary Ethiopian artist working within the tradition of Ethiopian Orthodox manuscript illumination and church mural painting. His distinctive style features:
+- **Narrative panel compositions** — multiple scenes arranged in grids with individual borders
+- **Ge'ez/Amharic manuscript text** as decorative titles and inscriptions
+- **Red/terracotta geometric borders** framing each panel
+- **Flat 2D perspective** — no depth, no foreshortening, no realistic anatomy
+- **Bold black outlines** defining every form
+- **Flat unshaded colors** — warm earth tones, no gradients
+- **Large almond-shaped eyes** — the most defining facial feature
+- **Simplified rounded figures** in traditional Ethiopian garments
+
+**IMPORTANT**: This is NOT the same as the Afewerk Tekle style. Legesse's work is flat, 2D, and manuscript-like. Tekle's work is volumetric, chiaroscuro, and oil painting. Never confuse the two.
 
 ## Reference Image
 
@@ -40,14 +55,15 @@ Before generating any prompt, study the reference image in `assets/reference-ets
 
 ## Style Characteristics
 
-These non-negotiable traits define the Ethiopian painting style. Every generated image must exhibit all of them:
+These non-negotiable traits define Etsubdink Legesse's painting style. Every generated image must exhibit all of them:
 
 ### Composition
 - **Flat two-dimensional composition** — no realistic perspective, depth, or foreshortening
 - **Front-facing or simple profile** figures — never three-quarter view
 - **Balanced, evenly spaced** subjects with similar head heights when grouped
 - **Narrative clarity** — the story must be instantly readable
-- **Decorative geometric border** — red/terracotta frame surrounding the artwork
+- **Red/terracotta geometric border** — Legesse's signature framing device
+- **Multi-panel layouts** — multiple narrative scenes arranged in grids
 
 ### Figure Style
 - **Large almond-shaped expressive eyes** — the most defining feature
@@ -164,7 +180,7 @@ Use ONLY these colors (approximate hex values for reference):
 Use this template for every generation. Fill in the bracketed sections:
 
 ```
-[SUBJECT], traditional Ethiopian painting style, inspired by Ethiopian Orthodox manuscript art and the work of Etsubdink Legesse, flat 2D composition, bold black outlines, vibrant flat unshaded colors, large almond-shaped expressive eyes, warm brown skin tones, decorative textile patterns, simplified rounded anatomy, narrative composition, warm ivory background, geometric ornamental red/terracotta border, Ge'ez manuscript text decorative detail, handcrafted Ethiopian painting aesthetic.
+[SUBJECT], in the style of Etsubdink Legesse, Ethiopian traditional painting, flat 2D composition, bold black outlines, vibrant flat unshaded colors, large almond-shaped expressive eyes, warm brown skin tones, decorative textile patterns, simplified rounded anatomy, narrative composition, warm ivory background, red/terracotta geometric border with decorative pattern, Ge'ez manuscript text as title, handcrafted Ethiopian painting aesthetic, inspired by Ethiopian Orthodox manuscript art.
 ```
 
 ### For portraits, add:
@@ -184,7 +200,7 @@ Storytelling composition, [describe the narrative], symbolic background elements
 
 ### For modern subjects, add:
 ```
-Modern subject rendered in traditional Ethiopian flat painting style, simplified symbolic forms, [modern elements translated to Ethiopian visual language].
+Modern subject rendered in Etsubdink Legesse's flat painting style, simplified symbolic forms, [modern elements translated to Ethiopian visual language].
 ```
 
 ---
@@ -195,56 +211,56 @@ Modern subject rendered in traditional Ethiopian flat painting style, simplified
 
 **Prompt:**
 ```
-An Ethiopian coffee farmer holding freshly picked coffee cherries, traditional Ethiopian painting style, inspired by Ethiopian Orthodox manuscript art and Etsubdink Legesse, flat 2D composition, bold black outlines, vibrant flat unshaded colors, large almond-shaped expressive eyes, warm brown skin tones, wearing traditional white habesha kemis with colorful patterned shawl, warm ivory background, single stylized coffee tree behind, geometric ornamental red border, handcrafted Ethiopian painting aesthetic.
+An Ethiopian coffee farmer holding freshly picked coffee cherries, in the style of Etsubdink Legesse, Ethiopian traditional painting, flat 2D composition, bold black outlines, vibrant flat unshaded colors, large almond-shaped expressive eyes, warm brown skin tones, wearing traditional white habesha kemis with colorful patterned shawl, warm ivory background, single stylized coffee tree behind, red/terracotta geometric border with decorative pattern, Ge'ez text as title, handcrafted Ethiopian manuscript painting aesthetic.
 ```
 
 ### 2. Market Scene
 
 **Prompt:**
 ```
-A lively Ethiopian marketplace with merchants selling spices in woven baskets, traditional Ethiopian painting style, flat 2D composition, bold black outlines, warm earthy colors, six figures in traditional garments arranged in balanced composition, simplified anatomy, large expressive eyes, warm ivory background, mesob baskets and jebena coffee pots as details, geometric terracotta border, Ge'ez text at top, narrative market scene, Etsubdink Legesse style.
+A lively Ethiopian marketplace with merchants selling spices in woven baskets, in the style of Etsubdink Legesse, flat 2D composition, bold black outlines, warm earthy colors, six figures in traditional garments arranged in balanced composition, simplified anatomy, large expressive eyes, warm ivory background, mesob baskets and jebena coffee pots as details, red/terracotta geometric border, Ge'ez manuscript text at top, narrative market scene, handcrafted Ethiopian painting.
 ```
 
 ### 3. Family — Coffee Ceremony
 
 **Prompt:**
 ```
-An Ethiopian family gathered for a traditional coffee ceremony, traditional Ethiopian painting style, inspired by Ethiopian Orthodox manuscript art, flat 2D composition, bold black outlines, vibrant flat colors, three generations seated around a jebena, woman roasting coffee beans, large almond-shaped eyes, warm brown skin tones, decorative clothing patterns, steam rising symbolically from cups, warm ivory background, stylized tree providing shade, geometric red border, communal narrative composition.
+An Ethiopian family gathered for a traditional coffee ceremony, in the style of Etsubdink Legesse, Ethiopian traditional painting, flat 2D composition, bold black outlines, vibrant flat colors, three generations seated around a jebena, woman roasting coffee beans, large almond-shaped eyes, warm brown skin tones, decorative clothing patterns, steam rising symbolically from cups, warm ivory background, stylized tree providing shade, red/terracotta geometric border, communal narrative composition.
 ```
 
 ### 4. Religious — Church Gathering
 
 **Prompt:**
 ```
-Ethiopian Orthodox church congregation gathered for ceremony, traditional Ethiopian painting style, flat 2D composition, bold black outlines, vibrant flat colors, figures in white shammas with colorful borders, priest in ceremonial vestments holding Ethiopian cross, ceremonial umbrella, large almond-shaped expressive eyes, warm brown skin tones, church architecture with round shape and conical roof, warm ivory background, Ge'ez inscriptions, geometric ornamental border, Etsubdink Legesse manuscript style.
+Ethiopian Orthodox church congregation gathered for ceremony, in the style of Etsubdink Legesse, flat 2D composition, bold black outlines, vibrant flat colors, figures in white shammas with colorful borders, priest in ceremonial vestments holding Ethiopian cross, ceremonial umbrella, large almond-shaped expressive eyes, warm brown skin tones, church architecture with round shape and conical roof, warm ivory background, Ge'ez inscriptions, red/terracotta geometric border, handcrafted manuscript style.
 ```
 
 ### 5. Modern Subject — Graphic Designer
 
 **Prompt:**
 ```
-A young Ethiopian graphic designer working at a desk with a laptop, illustrated in traditional Ethiopian painting style, flat 2D composition, bold black outlines, vibrant flat colors, large almond-shaped expressive eyes, warm brown skin tones, wearing modern clothing with traditional Ethiopian patterned accents, laptop rendered as simplified flat rectangular form, desk and chair as geometric shapes, warm ivory background, decorative textile hanging on wall, geometric terracotta border, modern subject in timeless Ethiopian visual language.
+A young Ethiopian graphic designer working at a desk with a laptop, in the style of Etsubdink Legesse, Ethiopian traditional painting, flat 2D composition, bold black outlines, vibrant flat colors, large almond-shaped expressive eyes, warm brown skin tones, wearing modern clothing with traditional Ethiopian patterned accents, laptop rendered as simplified flat rectangular form, desk and chair as geometric shapes, warm ivory background, decorative textile hanging on wall, red/terracotta geometric border, modern subject in timeless Ethiopian visual language.
 ```
 
 ### 6. Narrative — King Solomon and the Queen of Sheba
 
 **Prompt:**
 ```
-King Solomon receiving the Queen of Sheba, traditional Ethiopian painting style, inspired by Ethiopian Orthodox manuscript illumination, flat 2D composition, bold black outlines, flat unshaded colors, two central figures in ornate royal garments with geometric patterns, crown and ceremonial parasol, large almond-shaped expressive eyes, warm brown skin tones, attendants flanking both sides, warm ivory background, Ethiopian cross motifs, Ge'ez manuscript text, geometric ornamental red and gold border, narrative bilateral composition, Etsubdink Legesse style.
+King Solomon receiving the Queen of Sheba, in the style of Etsubdink Legesse, Ethiopian manuscript painting, flat 2D composition, bold black outlines, flat unshaded colors, two central figures in ornate royal garments with geometric patterns, crown and ceremonial parasol, large almond-shaped expressive eyes, warm brown skin tones, attendants flanking both sides, warm ivory background, Ethiopian cross motifs, Ge'ez manuscript text, red/terracotta geometric border with gold accents, narrative bilateral composition.
 ```
 
 ### 7. Landscape — Ethiopian Highlands
 
 **Prompt:**
 ```
-Ethiopian highland landscape with terraced hillsides and traditional tukul huts, traditional Ethiopian painting style, flat 2D composition, bold black outlines, vibrant flat colors, stylized round huts with conical thatched roofs, terraced fields in green and gold, figures walking paths, large almond-shaped trees, warm ivory sky, warm brown earth tones, geometric terracotta border, narrative pastoral scene, simplified symbolic forms, Etsubdink Legesse aesthetic.
+Ethiopian highland landscape with terraced hillsides and traditional tukul huts, in the style of Etsubdink Legesse, flat 2D composition, bold black outlines, vibrant flat colors, stylized round huts with conical thatched roofs, terraced fields in green and gold, figures walking paths, large almond-shaped trees, warm ivory sky, warm brown earth tones, red/terracotta geometric border, narrative pastoral scene, simplified symbolic forms, handcrafted Ethiopian painting.
 ```
 
 ### 8. Celebration — Timkat Festival
 
 **Prompt:**
 ```
-Timkat Ethiopian Epiphany celebration procession, traditional Ethiopian painting style, flat 2D composition, bold black outlines, vibrant flat colors, priests carrying tabot under ceremonial umbrella, figures in white shammas with colorful borders, dancing and celebrating, large almond-shaped expressive eyes, warm brown skin tones, Ethiopian crosses, Ge'ez inscriptions, warm ivory background, geometric ornamental border, joyful narrative composition, Etsubdink Legesse manuscript style.
+Timkat Ethiopian Epiphany celebration procession, in the style of Etsubdink Legesse, flat 2D composition, bold black outlines, vibrant flat colors, priests carrying tabot under ceremonial umbrella, figures in white shammas with colorful borders, dancing and celebrating, large almond-shaped expressive eyes, warm brown skin tones, Ethiopian crosses, Ge'ez inscriptions, warm ivory background, red/terracotta geometric border, joyful narrative composition, manuscript painting style.
 ```
 
 ---
