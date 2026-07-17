@@ -1,0 +1,53 @@
+{
+  "skill_name": "afewerk-tekle-painting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate a portrait of an Ethiopian woman in traditional white clothing with colorful borders, in the style of Afewerk Tekle",
+      "expected_output": "Oil painting with dramatic chiaroscuro, luminous white garment with tilet borders, graceful elongated neck, large soulful eyes, rich warm skin tones, jewel-toned colors, visible brushwork texture",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a painting of Ethiopian Orthodox priests holding crosses in a church, monumental style",
+      "expected_output": "Oil painting with clergy in heavy crimson and gold robes, tilet borders, church interior with curtains and golden light, dramatic chiaroscuro, dignified postures, deeply saturated jewel tones",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want a cubist-style portrait of an Ethiopian man, like stained glass, in Afewerk Tekle's style",
+      "expected_output": "Oil painting with stained-glass cubist phase, intersecting dark geometric lines fracturing the composition, deep warm skin tones, large expressive eyes, vibrant jewel-toned colors within geometric fragments, classical realism underneath",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Generate an allegorical painting of an Ethiopian woman holding cotton with a landscape behind her, like the famous Tekle painting",
+      "expected_output": "Monumental oil painting, dignified woman on balcony holding raw cotton, white habesha kemis with gold and red tilet border, serene Ethiopian landscape with lake and acacia trees, dramatic chiaroscuro, luminous colors, majestic composition",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Paint a mother and child in the Afewerk Tekle style, Ethiopian fine art",
+      "expected_output": "Oil painting, tender portrait of Ethiopian mother and infant wrapped in luminous white netela with tilet borders, serene dignified expression, soft ethereal glow, dark warm background, classical realism, dramatic chiaroscuro, luminous oil painting texture",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Create a stained glass window design in the style of Afewerk Tekle, showing an Ethiopian scene",
+      "expected_output": "Stained glass window with luminous colored glass panels separated by thick dark lead lines, vibrant jewel-toned glass, figures in traditional Ethiopian garments with tilet borders, light streaming through, monumental sacred atmosphere",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Generate a heroic portrait of an Ethiopian warrior with spear and shield, classical oil painting style",
+      "expected_output": "Oil painting, heroic Ethiopian warrior in ancient regalia, muscular statuesque figure, deep mahogany skin, holding spear and shield, traditional armor with gold and crimson, tilet-patterned fabric, highland landscape background, chiaroscuro lighting, monumental composition",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "I need a modern Ethiopian doctor rendered in the Afewerk Tekle painting style, make it look classical and dignified",
+      "expected_output": "Oil painting in Tekle style, modern Ethiopian doctor rendered with monumental dignity, graceful elongated neck, large soulful eyes, rich warm skin tones, white medical coat with traditional tilet accent, dramatic chiaroscuro lighting, luminous saturated colors, classical realism with Ethiopian identity",
+      "files": []
+    }
+  ]
+}
