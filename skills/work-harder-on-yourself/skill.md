@@ -1,3 +1,8 @@
+---
+name: work-harder-on-yourself
+description: A personal development coaching skill based on Earl Shoaff's principle "Work harder on yourself than you do on your job." Helps users self-assess, identify growth gaps, build daily/weekly/monthly habits, and create a 90-day personal growth roadmap. Covers philosophy, knowledge, character, skills, and environment. Uses frameworks from Jim Rohn, Napoleon Hill, Stephen Covey, Carol Dweck, James Clear, and Viktor Frankl.
+---
+
 # Skill: Work Harder On Yourself Than On Your Job
 
 ## Purpose
