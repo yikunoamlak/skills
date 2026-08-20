@@ -1,0 +1,30 @@
+{
+  "name": "@yikunoamlak/work-harder-on-yourself-skill",
+  "version": "1.0.0",
+  "description": "Personal development skill inspired by Earl Shoaff's principle: 'Work harder on yourself than you do on your job.'",
+  "main": "skill.md",
+  "files": [
+    "skill.md",
+    "resources/**/*",
+    "templates/**/*"
+  ],
+  "scripts": {
+    "install": "node scripts/install.js",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "keywords": [
+    "skill",
+    "opencode",
+    "personal-development",
+    "coaching",
+    "growth",
+    "self-improvement"
+  ],
+  "author": "Yikunoamlak Ayalew",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yikunoamlak/skills.git",
+    "directory": "public/skills/work-harder-on-yourself"
+  }
+}
