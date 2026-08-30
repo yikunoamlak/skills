@@ -19,6 +19,13 @@
         "alter-ego-analyst",
         "work-harder-on-yourself"
       ]
+    },
+    {
+      "title": "Contextual Design",
+      "description": "Apply contextual reasoning to any design discipline—from logos to architecture.",
+      "skills": [
+        "contextual-design-skill"
+      ]
     }
   ]
 }
