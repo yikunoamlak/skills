@@ -4,7 +4,7 @@
 
 # Skills For Creative Agents
 
-A curated collection of AI agent skills for creative and design work — Ethiopian art generation, mask creation, alter ego analysis, and YouTube thumbnail creation.
+A curated collection of AI agent skills for creative and design work — Ethiopian art generation, mask creation, alter ego analysis, YouTube thumbnail creation, and interview-driven design storytelling.
 
 Install with one command:
 
@@ -20,6 +20,7 @@ npx skills@latest add yikunoamlak/skills/ethiopian-traditional-painting
 npx skills@latest add yikunoamlak/skills/vector-tribal-mask-generator
 npx skills@latest add yikunoamlak/skills/youtube-thumbnail-generator
 npx skills@latest add yikunoamlak/skills/alter-ego-analyst
+npx skills@latest add yikunoamlak/skills/storytelling-for-designers
 ```
 
 ## Skills
@@ -38,6 +39,12 @@ npx skills@latest add yikunoamlak/skills/alter-ego-analyst
 | Skill | Description |
 |-------|-------------|
 | [alter-ego-analyst](./skills/alter-ego-analyst/SKILL.md) | Create, analyze, and transform personas for peak performance. |
+
+### Storytelling & Narrative
+
+| Skill | Description |
+|-------|-------------|
+| [storytelling-for-designers](./skills/storytelling-for-designers/SKILL.md) | Interview-driven storytelling for design. Extracts what you want to tell, then selects the principles from the 100 in *Universal Principles of Storytelling for Designers* that fit your brief — with a narrative arc, concrete edits, and a QA checklist. |
 
 ## Ethiopian Art Skills
 
