@@ -207,4 +207,4 @@ no glossy 3D, no modern poster, no extra text, no gibberish lettering.
 | `assets/reference-layout-anatomy.png` | You need a labelled visual of the stamp anatomy |
 | `assets/reference-historical-stamps.jpg` | You need a visual timeline of real Ethiopian stamp designs |
 
-*Skill version 1.1.2. Generated sample stamps are concept art, not real postal issues.*
+*Skill version 1.1.3. Generated sample stamps are concept art, not real postal issues.*

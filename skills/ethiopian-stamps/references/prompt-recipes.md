@@ -213,6 +213,16 @@ shadow, no caption, no glossy 3D, no modern
 poster, no extra text, no gibberish lettering.
 ```
 
+## Other Platforms
+
+| Platform | Settings and notes |
+|---|---|
+| Midjourney | `--ar 2:3 --style raw --s 150`. Add `--no glossy, 3d, plastic, background, border, shadow`. Ask for the stamp cropped flush to its perforated edges |
+| DALL-E / ChatGPT | Use the prompt as written. Ask for a single image, not a sheet |
+| Flux | Use the base template. Add `intaglio engraving` or `offset print` to control the look |
+| Ideogram | Strong with text. Put all four strings in quotes and keep them short |
+| Stable Diffusion | Use the negative prompt. Add `engraved lines, flat ink, cream paper` to the positive |
+
 ## Post-Processing
 
 Use post-processing when the vignette is good but the typography is wrong.

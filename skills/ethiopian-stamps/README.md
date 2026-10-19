@@ -112,7 +112,7 @@ ethiopian-stamps/
 ├── references/
 │   ├── history-and-symbols.md        # Timeline, symbols, currency, ethics
 │   ├── design-grammar.md             # Anatomy, grids, type, colour, templates
-│   ├── prompt-recipes.md             # Prompt templates, era recipes
+│   ├── prompt-recipes.md             # Prompt templates, platform notes, era recipes
 │   └── image-sources.md              # Public-domain attribution
 └── scripts/
     └── export_stamp.py                # Scale a stamp image to a posting size
@@ -136,17 +136,18 @@ looks like something a postal service would print.
 
 > *The frame is official. The subject can smile.*
 
-## Generation Notes
+## Integration Notes
 
-- The prompts are tool-agnostic. Use any image tool that follows long prompts and
-  renders text.
-- Ask for one stamp, not a sheet.
-- If the tool renders text weakly, generate the art and set the four strings in
-  post.
-- Use a negative prompt where the tool supports one. Otherwise the closing
-  "No ..." clause in each prompt does the same job.
-- Use a vertical ratio for single stamps and a horizontal one for landscape
-  subjects.
+| Platform | Optimization |
+|---|---|
+| **Midjourney** | Add `--ar 2:3 --style raw --s 150`; add `--no glossy, 3d, plastic` |
+| **DALL-E / ChatGPT** | Use the prompt as written; ask for a single image |
+| **Flux** | Add `intaglio engraving` or `offset print` to control the look |
+| **Ideogram** | Strong with text; keep all four strings short and quoted |
+| **Stable Diffusion** | Use the negative prompt; add `engraved lines, flat ink, cream paper` |
+
+Ask for one stamp, not a sheet. If a tool renders text weakly, generate the art
+and set the four strings in post.
 
 ## Example Usage
 
@@ -173,5 +174,5 @@ them. Gently humorous but official in tone.
 
 ---
 
-*Skill version: 1.1.2 | Public-domain reference sheet in `assets/` | Sample images
+*Skill version: 1.1.3 | Public-domain reference sheet in `assets/` | Sample images
 are kept out of the repository*
