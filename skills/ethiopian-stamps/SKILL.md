@@ -2,7 +2,7 @@
 name: ethiopian-stamps
 description: >
   Create Ethiopian postage-stamp-inspired artwork: single stamps, se-tenant pairs,
-  souvenir sheets, first-day covers, and Pinterest pins. Use when the user asks for
+  souvenir sheets, first-day covers, and Pinterest-sized stamp images. Use when the user asks for
   an Ethiopian stamp, Ethiopian postage-stamp aesthetic, Habesha philatelic art,
   vintage or modern Ethiopian commemorative stamp, stamp sheet, or a humorous
   modern subject rendered inside an authentic Ethiopian stamp frame. Covers the
@@ -19,17 +19,17 @@ including a modern joke.
 
 ## What This Skill Produces
 
-- A single stamp, vertical or horizontal.
+- A single stamp, vertical or horizontal. The stamp is the whole image: nothing sits outside its perforated edges.
 - A se-tenant pair, strip, or block of four.
 - A souvenir sheet or miniature sheet with a wide margin and title.
 - A first-day cover (FDC) with stamp, cancellation, and cachet.
-- A Pinterest pin (2:3) presenting one or more stamps on cream paper.
+- A Pinterest-sized export (1440x2160) when the stamp is 2:3.
 
 ## Start With Five Decisions
 
 1. **Era.** 1894 first issue, 1909-1935 overprints and early definitives, 1941-1974 imperial commemoratives, 1974-1991 Derg, 1991-now contemporary, or a modern concept stamp in a historical frame.
 2. **Subject.** One clear subject from the subject bank below. Specific beats generic: a gelada, not "African wildlife".
-3. **Format.** Single stamp, pair, sheet, first-day cover, or Pinterest pin.
+3. **Format.** Single stamp, pair, sheet, first-day cover, or a 2:3 export for Pinterest.
 4. **Text.** Country name, denomination, year, and at most one short slogan. Keep it to four strings.
 5. **Humour.** None, gentle, or full modern gag. The frame stays serious; the subject carries the joke.
 
@@ -37,7 +37,7 @@ including a modern joke.
 
 Every output must satisfy these. If one is missing, the image reads as a poster, a banknote, or a generic vintage label.
 
-1. **A physical stamp, not a poster.** Show a piece of perforated paper with a printed design. On a pin or card, give it a cream margin and a soft shadow.
+1. **A physical stamp, not a poster.** Show a piece of perforated paper with a printed design. Nothing sits outside the perforated edges: no background paper, no linen texture, no border rule, no shadow, no caption. The stamp is the whole image.
 2. **Perforations.** A clean toothed edge around the whole stamp. Perforation 11.5 to 14.5, usually 14. The teeth should be regular and complete.
 3. **Inner frame.** A thin rule, with an ornamental or engraved border for historical eras. The border is part of the design, not a picture frame.
 4. **Amharic country name at the top.** Use `ኢትዮጵያ` (Ethiopia). Early 20th-century issues may instead read `POSTES ETHIOPIENNES`.
@@ -48,7 +48,7 @@ Every output must satisfy these. If one is missing, the image reads as a poster,
 9. **Bilingual balance.** Amharic and Latin text sit in separate bands. Never bury one language inside the illustration.
 10. **Cancellation is optional.** A circular postmark adds authenticity, but keep it off the face and off the denomination.
 11. **Flat printing language.** Engraved lines, lithographic ink, offset colour. No glossy 3D, no plastic wrap, no digital gradient mesh.
-12. **Label concept art.** If the stamp is not a real postal issue, say so in the pin caption or README. Never present fantasy as a real issue.
+12. **Label concept art.** If the stamp is not a real postal issue, say so in the post caption or README. Never present fantasy as a real issue.
 
 ## Era Selector
 
@@ -65,12 +65,12 @@ Every output must satisfy these. If one is missing, the image reads as a poster,
 
 | Format | Shape | Notes |
 |---|---|---|
-| Single stamp | Vertical 2:3 to 3:4, or horizontal 3:2 | The default. One vignette, one message |
+| Single stamp | Vertical 2:3 to 3:4, or horizontal 3:2 | The default. One vignette, one message. The image is cropped flush to the perforated edge |
 | Se-tenant pair | Two stamps joined | Two related subjects or a before/after; perforation runs through the middle |
 | Strip or block | Three or four stamps | A mini-series; keep the frame identical and change the vignette |
 | Souvenir sheet | Wide margin around one or four stamps | Margin carries the title, year, and a small motif. Use a large Amharic title and a Latin subtitle |
 | First-day cover | Horizontal envelope | Stamp in the corner, circular first-day cancellation, illustrated cachet on the left |
-| Pinterest pin | 2:3 vertical, 1440x2160 or 1696x2528 | Stamp centred at 55-70% of the height; cream paper; optional caption below; 120 px safe margin |
+| Pinterest export | 1440x2160 when the stamp is 2:3 | The stamp fills the frame edge to edge. Nothing outside the perforated edges: no background, shadow, border rule, or caption |
 
 ## Subject Bank
 
@@ -136,13 +136,15 @@ Rules: two to four inks plus paper; black for text; one gold or metallic accent 
 Write the prompt in this order: format, era, exact text, subject, printing, palette, paper and cancellation, negative constraints.
 
 ```
-A single [vertical / horizontal] Ethiopian postage stamp, [era] style, presented
-as a Pinterest pin on cream paper. The stamp has clean perforated edges and a
-fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA". Denomination
-"[value] ብር" at lower left. Year "[year]" at lower right. Central vignette:
-[one specific subject in one clear action]. [Printing language and palette].
-[Optional circular cancellation "ADDIS ABABA"]. Paper fibre, flat ink, no glossy
-3D, no modern poster, no extra text, no gibberish lettering.
+A single [vertical / horizontal] Ethiopian postage stamp, [era] style, cropped
+flush to its perforated edges so the stamp fills the entire frame — the
+perforated edge is the outer boundary and nothing exists outside it. The stamp
+has a fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA".
+Denomination "[value] ብር" at lower left. Year "[year]" at lower right. Central
+vignette: [one specific subject in one clear action]. [Printing language and
+palette]. [Optional circular cancellation "ADDIS ABABA"]. Paper fibre and flat
+ink on the stamp itself. No background, no shadow, no border rule, no caption,
+no glossy 3D, no modern poster, no extra text, no gibberish lettering.
 ```
 
 **1894 first issue add-on.** `intaglio engraving with fine cross-hatching, ornate acanthus border, profile portrait or heraldic lion, deep indigo and oxblood ink on cream, Amharic inscription only`.
@@ -153,7 +155,7 @@ fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA". Denomina
 
 **Contemporary add-on.** `offset print, flat vector illustration, generous negative space, clean geometric frame, terracotta and teal with gold accent, crisp bilingual typography`.
 
-**Negative prompt.** `glossy 3D, plastic texture, modern poster layout, rounded corners, drop shadow on the stamp, extra text, gibberish lettering, missing perforations, double stamp, sheet edges, watermark, signature, photo watermark`.
+**Negative prompt.** `glossy 3D, plastic texture, modern poster layout, rounded corners, background paper around the stamp, linen texture, border rule, drop shadow, caption, presentation card, mockup, extra text, gibberish lettering, missing perforations, double stamp, sheet edges, watermark, signature`.
 
 ## Workflow
 
@@ -162,7 +164,7 @@ fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA". Denomina
 3. Inspect each at full size: perforations, frame, top and bottom text, denomination, year, cancellation.
 4. Reject without regret if the Amharic is malformed, the perforation is broken, or the stamp looks glossy.
 5. Fix the text. Regenerate with fewer words, or crop the vignette and rebuild the frame with correct typography.
-6. Compose the pin: stamp centred, cream paper, soft shadow, caption below the stamp. Keep 120 px safe margins.
+6. The image is the stamp alone: confirm nothing sits outside the perforated edges. Crop flush to the perforation if the model left a margin.
 7. Run the quality checklist.
 8. Save the prompt with the image so the result is reproducible.
 
@@ -177,7 +179,7 @@ fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA". Denomina
 - [ ] The subject is specific to Ethiopia, not generic Africa.
 - [ ] The Lion of Judah, crosses, and historical figures are treated with dignity.
 - [ ] The joke, if any, is affectionate and lives in the subject.
-- [ ] The pin is 2:3, with safe margins and no text at the edge.
+- [ ] The perforated edge is the outer boundary: nothing outside it (no background, texture, rule, shadow, or caption).
 - [ ] Concept art is labelled as concept art.
 
 ## Common Fixes
@@ -187,10 +189,11 @@ fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA". Denomina
 | Gibberish Amharic | Regenerate with only `ኢትዮጵያ`, or remove the top text and rebuild the frame with a real font |
 | No perforations | Add `perforated stamp edge` and `single postage stamp`; use a reference image; add the frame in post |
 | Glossy modern look | Add `flat lithographic ink, cream paper, engraved linework, no 3D`; lower the contrast |
-| Too much text | Cut to country, denomination, and year. Move the caption to the pin, outside the stamp |
+| Too much text | Cut to country, denomination, and year. Nothing else belongs in the image |
 | Generic African motifs | Name the subject precisely: jebena, mesob, walia ibex, gelada, Lalibela, Axum, Lion of Judah |
 | Disrespectful humour | Change the subject. Never mock sacred symbols, emperors, or living people |
-| Stamp floats in space | Add cream paper, a soft shadow, and an unprinted margin around the perforation |
+| Paper, texture, or a rule around the stamp | Regenerate with `cropped flush to the perforated edges; nothing outside the perforation`; or crop flush in post |
+| The crop cuts into the perforation | Regenerate with the stamp filling a 2:3 frame; never crop the teeth off |
 | Wrong currency | Match the era: guerche before the 1940s, cents in the 1940s-1960s, birr after 1976 |
 
 ## Reference Files
@@ -204,4 +207,4 @@ fine inner frame. Top band: "ኢትዮጵያ". Bottom band: "ETHIOPIA". Denomina
 | `assets/reference-layout-anatomy.png` | You need a labelled visual of the stamp anatomy |
 | `assets/reference-historical-stamps.jpg` | You need a visual timeline of real Ethiopian stamp designs |
 
-*Skill version 1.1. Generated sample stamps are concept art, not real postal issues.*
+*Skill version 1.1.1. Generated sample stamps are concept art, not real postal issues.*

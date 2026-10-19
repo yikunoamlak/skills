@@ -21,6 +21,9 @@ this file when you are composing a prompt, drawing a frame, or checking a result
 └──────────────────────────────────────┘
 ```
 
+The perforated edge is the outer boundary of the artwork. Nothing is drawn
+outside it: no background paper, border rule, shadow, or caption.
+
 1. **Paper.** Cream or off-white, uncoated, matte. The paper carries the ink; it
    is not a white canvas behind a coloured rectangle.
 2. **Perforation.** Regular teeth around all four sides. Perforation gauge 11.5 to
@@ -63,13 +66,12 @@ this file when you are composing a prompt, drawing a frame, or checking a result
 - Real-world reference: a 1994 Ethiopian commemorative measured 40.5 x 30.45 mm
   (landscape). A 2011 coffee commemorative used perforation 14.
 
-**Pinterest pin.**
+**Stamp image for posting.**
 
-- Canvas 1440 x 2160 or 1696 x 2528 (2:3).
-- Stamp occupies 55 to 70 per cent of the height, centred.
-- Cream paper background with a very soft shadow under the stamp.
-- Keep 120 px of safe margin on every side. Pinterest overlays UI at the edges.
-- Caption below the stamp, outside the perforation. One line, serif, small.
+- The stamp fills the frame. The perforated edge is the outer boundary of the
+  image; nothing sits outside it.
+- Generate at the posting size: 1440 x 2160 or 1696 x 2528 when the stamp is 2:3.
+- Crop flush to the perforation if the model leaves a margin.
 - Export JPEG, quality 90 or higher.
 
 ## Typography
@@ -226,8 +228,9 @@ Never over the face, the value, or the country name.
 
 | Do | Do not |
 |---|---|
+| Fill the frame with the stamp, flush to the perforated edge | Add background paper, a border rule, a texture, or a shadow around the stamp |
 | Show perforated paper | Float a flat design on white |
-| Keep the cream margin | Bleed the design to the pin edge |
+| Keep the unprinted paper margin inside the perforation | Bleed the design into the paper margin |
 | Use one clear vignette | Collage five motifs into one stamp |
 | Use verified short Amharic | Generate a paragraph of Ge'ez |
 | Match currency to the era | Put birr on an 1894 stamp |
@@ -235,4 +238,4 @@ Never over the face, the value, or the country name.
 | Use two to four inks | Use a rainbow gradient |
 | Preserve dignity for sacred symbols | Make the Lion of Judah a meme |
 | Label concept art | Claim a fantasy stamp is real |
-| Keep text inside the frame | Let the caption cross the perforation |
+| Keep text inside the frame | Let any text cross the perforation |

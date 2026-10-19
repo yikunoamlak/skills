@@ -34,8 +34,9 @@ Construct a source URL as
 
 ## Generated Examples
 
-The sample pins shown during development are AI-generated concept art, not real
-postal issues. They were generated with the PixVerse CLI and the Nano Banana
+The sample stamp images shown during development are AI-generated concept art,
+not real postal issues. Each is cropped flush to its perforated edges: nothing
+sits outside them. They were generated with the PixVerse CLI and the Nano Banana
 class model (`gemini-3.1-flash`) at 1440p, 2:3. The exact prompts are in
 `references/prompt-recipes.md`. The sample images themselves are kept out of
 this repository.

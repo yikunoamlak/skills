@@ -4,11 +4,12 @@
 
 **Ethiopian Stamps** is a skill for creating artwork in the visual language of
 Ethiopian postage stamps: single stamps, se-tenant pairs, souvenir sheets,
-first-day covers, and Pinterest-format pins.
+first-day covers, and 2:3 stamp images ready for Pinterest.
 
 The output reads as a real philatelic object first — perforated paper, inner
 frame, bilingual inscription, denomination, cancellation — and only then as
-whatever subject you place inside it. That means a serious national stamp can
+whatever subject you place inside it. The stamp is the whole image: nothing
+sits outside its perforated edges. That means a serious national stamp can
 carry a modern joke without turning into a novelty sticker.
 
 ## What This Skill Does
@@ -18,13 +19,14 @@ When activated, this skill:
 1. **Places** the request in an era: 1894 first issue, 1901-1935 overprints,
    1941-1974 imperial commemoratives, Derg era, or contemporary.
 2. **Chooses** the format: single stamp, pair, souvenir sheet, first-day cover,
-   or Pinterest pin.
+   or a 2:3 export for Pinterest.
 3. **Writes** one clear vignette subject and at most four text strings.
 4. **Builds** a complete generation prompt with printing language, palette,
    paper, perforation, and cancellation.
 5. **Validates** the result against a 12-point stamp contract and an 11-item
    quality checklist.
-6. **Composes** the final 2:3 pin with `scripts/make_pin.py`.
+6. **Exports** the final size with `scripts/export_stamp.py` (1440 x 2160 for a
+   2:3 stamp), adding nothing outside the perforated edges.
 
 ## When to Use This Skill
 
@@ -36,7 +38,7 @@ Trigger this skill whenever the user wants:
 - A **commemorative stamp** for a subject, person, or event
 - A **souvenir sheet**, **se-tenant pair**, or **first-day cover**
 - A **humorous modern subject** inside an authentic stamp frame
-- A **Pinterest pin** built from stamp art
+- A **Pinterest-sized stamp image** (2:3) ready to post
 
 ### Specific Triggers
 
@@ -75,6 +77,7 @@ issue. The era selects the printing process, palette, and typography.
 | Element | Rule |
 |---|---|
 | Paper | Cream or off-white, matte, uncoated |
+| Image boundary | The perforated edge; nothing sits outside it |
 | Perforation | Gauge 11.5-14.5, usually 14, clean regular teeth |
 | Frame | Fine rule plus engraved or ornamental border for historical eras |
 | Top band | `ኢትዮጵያ` in Ge'ez script, 4-8% of stamp height |
@@ -112,7 +115,7 @@ ethiopian-stamps/
 │   ├── prompt-recipes.md             # Model notes, CLI, era recipes
 │   └── image-sources.md              # Public-domain attribution
 └── scripts/
-    └── make_pin.py                   # Compose a 2:3 pin from a stamp image
+    └── export_stamp.py                # Scale a stamp image to a posting size
 ```
 
 Sample images generated with the skill are kept outside the repository.
@@ -152,11 +155,14 @@ looks like something a postal service would print.
 **Skill produces:** an 1894 engraved-style stamp, perforated cream paper,
 ornate foliage border, `ኢትዮጵያ` at the top, `ETHIOPIA` and `5 ብር` at the bottom,
 an orange tabby in a gold imperial crown on a crimson cushion, fine
-cross-hatching in indigo and oxblood, and a circular `ADDIS ABABA` cancellation,
-gently humorous but official in tone.
+cross-hatching in indigo and oxblood, and a circular `ADDIS ABABA` cancellation.
+The stamp fills the frame, flush to its perforated edges; nothing sits outside
+them. Gently humorous but official in tone.
 
 ## Important Notes
 
+- The stamp is the whole image. Nothing sits outside the perforated edges: no
+  background paper, border rule, shadow, or caption.
 - These are **concept stamps**, not real postal issues. Label them as such.
 - Amharic from image models needs verification. Use short strings and check every
   glyph, or rebuild the top band with a real Ethiopic font.
@@ -167,5 +173,5 @@ gently humorous but official in tone.
 
 ---
 
-*Skill version: 1.1 | Public-domain reference sheet in `assets/` | Sample images
+*Skill version: 1.1.1 | Public-domain reference sheet in `assets/` | Sample images
 are kept out of the repository*
