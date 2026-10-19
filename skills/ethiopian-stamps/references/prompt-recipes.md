@@ -1,54 +1,27 @@
 # Prompt Recipes
 
-Model settings, ready-made prompts, and repair strategies for stamp generation.
+Prompt templates, ready-made prompts, and repair strategies for stamp generation.
+The prompts are tool-agnostic: they describe the stamp, the era, and the printing
+language, and they work with any image tool that follows long prompts and renders
+text.
 
-## Model Notes
+## Picking a Tool
 
-The PixVerse CLI default image model is `gpt-image-2.5-flare`. For stamp work,
-pick a model by its text strength:
+Choose by text strength, not by hype. The stamp depends on four short strings, a
+regular perforation, and a frame that survives at 100%.
 
-| Model | Also called | Strengths | Watch out for |
-|---|---|---|---|
-| `gemini-3.1-flash` | Nano Banana 2 | Best layout and text-in-image, follows long prompts, good frames | May invent Glyphs in Amharic; verify every glyph |
-| `gemini-3.0` | Nano Banana Pro | Highest detail, complex scenes, 2160p | Slower, more expensive; same Amharic caveat |
-| `gpt-image-2.5-flare` | — | Crisp Latin typography, strong instruction following | Can look too clean; add paper and print cues |
-| `gpt-image-2.5-sunburst` | — | Alternate GPT image style, good illustration | Check availability in your CLI version |
-| `seedream-5.0-pro` | — | Painterly illustration, rich colour | Weak text; generate art only, compose type in post |
-| `qwen-image` | — | Flat graphic and vector looks | Weak text; good for modern stamps |
+- If the tool renders text well, use the prompts as written.
+- If the text is weak, generate the art only and set the type in post.
+- If the tool takes a negative prompt, use the list below. If it does not, the
+  closing "No ..." clause in each prompt does the same job.
+- Ask for one stamp, not a sheet. Sheets invite stray stamps and background.
+- If the tool has an aspect ratio setting, use a vertical ratio for single stamps
+  and a horizontal one for landscape subjects.
+- Generate one variant, inspect at full size, then generate more only if the
+  frame, perforation, and text are close.
 
-There is no `nano-banana-2.5` model in PixVerse 1.4.6. The newest Nano Banana is
-`gemini-3.1-flash` (Nano Banana 2). `gemini-3.0` is Nano Banana Pro. If the user
-asks for "Nano Banana 2.5", use `gemini-3.1-flash` and say why.
-
-## PixVerse CLI
-
-Write prompts that contain Amharic to a UTF-8 text file, then pass the file path
-to `--prompt`. This avoids shell encoding problems.
-
-```powershell
-# Generate
-pixverse create image `
-  --prompt 'C:\path\to\prompt.txt' `
-  --model gemini-3.1-flash `
-  --quality 1440p `
-  --aspect-ratio 2:3 `
-  --count 1 `
-  --idempotency-key eth-stamp-my-subject-01 `
-  --timeout 300 `
-  --json
-
-# Download the result
-pixverse asset download <image_id> --type image --json
-```
-
-Useful flags: `--count 2` or `3` for variants, `--seed` for repeatability,
-`--detail-level high` or `xhigh` for GPT Image models. Check the installed
-version with `pixverse --version` and the model list with
-`pixverse capabilities create image --json`.
-
-Cost discipline: generate one variant, inspect at full size, then generate more
-only if the frame, perforation, and text are close. Every rejected image still
-costs credits.
+Verify every glyph before publishing. A tool that draws a beautiful stamp and
+invents one Amharic letter has still failed.
 
 ## Text Strategy
 
@@ -239,16 +212,6 @@ gold foil accents. Playful, proud, gently humorous. No background, no border, no
 shadow, no caption, no glossy 3D, no modern
 poster, no extra text, no gibberish lettering.
 ```
-
-## Other Platforms
-
-| Platform | Settings and notes |
-|---|---|
-| Midjourney | `--ar 2:3 --style raw --s 150`. Add `--no glossy, 3d, plastic, background, border, shadow`. Ask for the stamp cropped flush to its perforated edges |
-| DALL-E / ChatGPT | Use the prompt as written. Ask for a single image, not a sheet |
-| Flux | Use the base template. Add `intaglio engraving` or `offset print` to control the look |
-| Ideogram | Strong with text. Put all four strings in quotes and keep them short |
-| Stable Diffusion | Use the negative prompt. Add `engraved lines, flat ink, cream paper` to the positive |
 
 ## Post-Processing
 

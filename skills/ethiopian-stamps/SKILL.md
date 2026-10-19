@@ -160,7 +160,7 @@ no glossy 3D, no modern poster, no extra text, no gibberish lettering.
 ## Workflow
 
 1. Choose era, subject, format, and the four text strings.
-2. Generate two to four variants at 2:3 with the era add-on. For PixVerse, see `references/prompt-recipes.md`.
+2. Generate two to four variants at 2:3 with the era add-on. See `references/prompt-recipes.md` for full prompt templates.
 3. Inspect each at full size: perforations, frame, top and bottom text, denomination, year, cancellation.
 4. Reject without regret if the Amharic is malformed, the perforation is broken, or the stamp looks glossy.
 5. Fix the text. Regenerate with fewer words, or crop the vignette and rebuild the frame with correct typography.
@@ -202,9 +202,9 @@ no glossy 3D, no modern poster, no extra text, no gibberish lettering.
 |---|---|
 | `references/history-and-symbols.md` | You need dates, symbols, currency, or cultural context |
 | `references/design-grammar.md` | You need proportions, grids, typography, colour, or printing detail |
-| `references/prompt-recipes.md` | You are generating with PixVerse, Midjourney, or another model |
+| `references/prompt-recipes.md` | You are writing or adapting a generation prompt |
 | `references/image-sources.md` | You want the public-domain reference images and their licences |
 | `assets/reference-layout-anatomy.png` | You need a labelled visual of the stamp anatomy |
 | `assets/reference-historical-stamps.jpg` | You need a visual timeline of real Ethiopian stamp designs |
 
-*Skill version 1.1.1. Generated sample stamps are concept art, not real postal issues.*
+*Skill version 1.1.2. Generated sample stamps are concept art, not real postal issues.*

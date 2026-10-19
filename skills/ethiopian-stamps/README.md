@@ -112,7 +112,7 @@ ethiopian-stamps/
 ├── references/
 │   ├── history-and-symbols.md        # Timeline, symbols, currency, ethics
 │   ├── design-grammar.md             # Anatomy, grids, type, colour, templates
-│   ├── prompt-recipes.md             # Model notes, CLI, era recipes
+│   ├── prompt-recipes.md             # Prompt templates, era recipes
 │   └── image-sources.md              # Public-domain attribution
 └── scripts/
     └── export_stamp.py                # Scale a stamp image to a posting size
@@ -125,7 +125,6 @@ Sample images generated with the skill are kept outside the repository.
 - Wikipedia, *Postage stamps and postal history of Ethiopia*
 - Ethiopost philately and stamp archive (`ethio.post`)
 - Wikimedia Commons public-domain stamp scans, 1894-2024
-- PixVerse CLI 1.4.6 for the generated concept samples
 
 ## Core Philosophy
 
@@ -137,16 +136,17 @@ looks like something a postal service would print.
 
 > *The frame is official. The subject can smile.*
 
-## Integration Notes
+## Generation Notes
 
-| Platform | Optimization |
-|---|---|
-| **PixVerse CLI** | `--model gemini-3.1-flash --quality 1440p --aspect-ratio 2:3 --count 1 --json` |
-| **Midjourney** | Add `--ar 2:3 --style raw --s 150`; add `--no glossy, 3d, plastic` |
-| **DALL-E / ChatGPT** | Use the prompt as written; ask for a single image |
-| **Flux** | Add `intaglio engraving` or `offset print` to control the look |
-| **Ideogram** | Strong with text; keep all four strings short and quoted |
-| **Stable Diffusion** | Use the negative prompt; add `engraved lines, flat ink, cream paper` |
+- The prompts are tool-agnostic. Use any image tool that follows long prompts and
+  renders text.
+- Ask for one stamp, not a sheet.
+- If the tool renders text weakly, generate the art and set the four strings in
+  post.
+- Use a negative prompt where the tool supports one. Otherwise the closing
+  "No ..." clause in each prompt does the same job.
+- Use a vertical ratio for single stamps and a horizontal one for landscape
+  subjects.
 
 ## Example Usage
 
@@ -173,5 +173,5 @@ them. Gently humorous but official in tone.
 
 ---
 
-*Skill version: 1.1.1 | Public-domain reference sheet in `assets/` | Sample images
+*Skill version: 1.1.2 | Public-domain reference sheet in `assets/` | Sample images
 are kept out of the repository*
