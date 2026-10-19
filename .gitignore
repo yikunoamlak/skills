@@ -1,2 +1,5 @@
 .DS_Store
 node_modules/
+
+# Local-only sample outputs for the ethiopian-stamps skill
+skills/ethiopian-stamps/examples/

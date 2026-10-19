@@ -17,6 +17,7 @@ Or install individual skills:
 ```bash
 npx skills@latest add yikunoamlak/skills/afewerk-tekle-painting
 npx skills@latest add yikunoamlak/skills/ethiopian-traditional-painting
+npx skills@latest add yikunoamlak/skills/ethiopian-stamps
 npx skills@latest add yikunoamlak/skills/vector-tribal-mask-generator
 npx skills@latest add yikunoamlak/skills/youtube-thumbnail-generator
 npx skills@latest add yikunoamlak/skills/alter-ego-analyst
@@ -31,6 +32,7 @@ npx skills@latest add yikunoamlak/skills/storytelling-for-designers
 |-------|-------------|
 | [afewerk-tekle-painting](./skills/afewerk-tekle-painting/SKILL.md) | Generate monumental, luminous oil paintings in the style of Afewerk Tekle — Ethiopia's most celebrated modern artist. Classical realism, dramatic chiaroscuro, stained-glass cubism, jewel-toned colors. |
 | [ethiopian-traditional-painting](./skills/ethiopian-traditional-painting/SKILL.md) | Generate illustrations in the specific flat painting style of Etsubdink Legesse — narrative panels, bold outlines, warm earth tones, large almond-shaped eyes, manuscript aesthetic. |
+| [ethiopian-stamps](./skills/ethiopian-stamps/SKILL.md) | Create Ethiopian postage-stamp art — perforated stamps, se-tenant pairs, souvenir sheets, first-day covers, and Pinterest pins, from the 1894 Menelik engraving to modern commemoratives, with bilingual Amharic/Latin layout. |
 | [vector-tribal-mask-generator](./skills/vector-tribal-mask-generator/SKILL.md) | Generate premium vector tribal mask illustration collections from image inspiration. |
 | [youtube-thumbnail-generator](./skills/youtube-thumbnail-generator/SKILL.md) | Generate high-performing YouTube thumbnails from video titles. |
 
@@ -56,6 +58,8 @@ This collection includes two distinct Ethiopian painting styles:
 | **Etsubdink Legesse** | Etsubdink Legesse (contemporary) | Flat 2D painting, bold black outlines, warm earth tones, large almond-shaped eyes, narrative panels, manuscript aesthetic |
 
 **Do not confuse these two styles.** Tekle uses perspective, depth, shadow, and volume. Legesse's work is flat, symbolic, and manuscript-like. Both are masterful but fundamentally different.
+
+The collection also includes [`ethiopian-stamps`](./skills/ethiopian-stamps/SKILL.md), which reproduces the visual language of Ethiopian postage stamps — 1894 to today — rather than a painting style.
 
 ## License
 

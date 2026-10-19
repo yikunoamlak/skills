@@ -1,0 +1,53 @@
+{
+  "skill_name": "ethiopian-stamps",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Make me an Ethiopian stamp with a cat as emperor",
+      "expected_output": "1894 engraved-style Ethiopian stamp, perforated cream paper, ornate acanthus border, Amharic ኢትዮጵያ top band, ETHIOPIA bottom band with denomination and year, regal cat in a gold imperial crown in the central medallion, fine cross-hatching in indigo and oxblood, optional ADDIS ABABA cancellation, dignified but gently humorous, labelled as concept art",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Ethiopian postage stamp of a gelada baboon working on a laptop in the Simien Mountains",
+      "expected_output": "Single perforated Ethiopian stamp with inner frame, Amharic country name at top, ETHIOPIA at bottom, birr denomination and year in the lower corners, gelada with laptop as the one central vignette, Simien highland background, era-appropriate printing language and palette, flat ink on cream paper, no glossy 3D, no gibberish lettering",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need a vintage Ethiopian stamp look for our coffee shop brand",
+      "expected_output": "Mid-century 1949-1960s commemorative style stamp or pin, perforated cream paper, jebena, small cups, rekbot, and mesob in the vignette, Amharic and Latin country bands, denomination and year, photogravure or lithographic printing language, emerald, vermilion, mustard, and cream palette, gold accents, dignified and warm",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Design a souvenir sheet for Ethiopian Airlines with four stamps",
+      "expected_output": "Souvenir sheet with wide unprinted margin, Amharic title plus Latin subtitle, four se-tenant stamps sharing one identical frame with different aircraft and Ethiopian landscape vignettes, denominations and years per stamp, era-correct palette and printing language, perforations between stamps, labelled concept art",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "A stamp from 1894 Ethiopia with Menelik II, like the real first issue",
+      "expected_output": "Intaglio-engraved 1894 first-issue style stamp, acanthus border, Menelik II portrait or Lion of Judah in a medallion, Amharic-only inscription, guerche denomination in a circle, indigo, oxblood, and ochre ink on cream paper, fine cross-hatching, no birr, muted historic palette, respectful treatment of the emperor",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Derg era Ethiopian stamp with a heroic worker, red yellow green",
+      "expected_output": "1970s Derg-style stamp, flat bold poster graphics, red, yellow, green, and black, heroic worker or soldier silhouette, Amharic slogan band, ETHIOPIA bottom band, small denomination, no imperial symbols, clean perforated edge, concept-art label",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "A first day cover for an Ethiopian coffee stamp",
+      "expected_output": "Horizontal envelope layout, stamp in a corner, circular first-day cancellation with town and date, illustrated cachet on the left with coffee ceremony motifs, Amharic and Latin text, cream paper texture, dignified commemorative design, no glossy 3D",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Funny Ethiopian stamp: injera displayed like a national treasure in a museum",
+      "expected_output": "Contemporary Ethiopian stamp, flat offset-print illustration, perforated cream paper, Amharic top band and ETHIOPIA bottom band with birr denomination and year, giant injera on a mesob under a museum spotlight with velvet ropes and small bowls, affectionate humour in the vignette, official and dignified frame, labelled concept art",
+      "files": []
+    }
+  ]
+}
